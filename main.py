@@ -13,12 +13,11 @@ USERNAME = "<your username>"
 PASSWORD = "<your password>"
 POST_URL = "<https://post_url.com>"
 COMMENT_TEXT = "<comment text>"
+DRIVER_PATH = '<driver path>'
 
 # init 
 
-file_path = 'C:/Users/enzod/chromedriver.exe'
-
-driver = webdriver.Chrome(file_path)
+driver = webdriver.Chrome(DRIVER_PATH)
 
 driver.get("http://www.instagram.com")
 
